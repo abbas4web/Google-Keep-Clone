@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Raleway&family=Ubuntu&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mains {
+  width: 100%;
+  position: absolute
+}
+
+
+.footer__section {
+  position: relative;
+  background-color: #E5F9A2;
+  top: 300px;
+  padding: 6px;
+  color: #356104;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__section p {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1px;
+  margin-left: 20px;
+}
+
+.footer__section .icons {
+  margin-right: 20px;
+}
+
+.footer__section .icons a {
+  margin-left: 12px;
+  color: #356104;
+}
+
+@media (max-width : 500px) {
+  .footer__section {
+    position: relative;
+    top: 435px;
+  }
+}
+
+@media (max-width : 425px) {
+  .footer__section {
+    position: relative;
+    top: 490px;
+  }
+}
+
+@media (max-width : 375px) {
+  .footer__section {
+    position: relative;
+    top: 330px;
+  }
+}
